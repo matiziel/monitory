@@ -31,20 +31,20 @@ int main()
 
 void produceA()
 {
-		prod.ProducerA(&mon, 10);
+		prod.ProducerA(&mon, 5);
 
 }
 void produceB()
 {
-		prod.ProducerB(&mon, 5);
+		prod.ProducerB(&mon, 4);
 }
 
 void consumeA()
 {
-		cons.ConsumerA(&mon, 12);
+		cons.ConsumerA(&mon, 3);
 
 }
 void consumeB()
 {
-		cons.ConsumerB(&mon, 3);
+		cons.ConsumerB(&mon, 6);
 }
