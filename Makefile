@@ -1,8 +1,8 @@
 CC=g++
-CFLAGS=-Wall -std=c++11 -pthread -Wl,--no-as-needed
+CFLAGS=-Wall -std=c++11 -pthread 
 
 all: main.cpp Bufor.h monitor.h MyMonitor.h ProdConsMon.h
-	$(CC) main.cpp -Wall -std=c++11 -pthread -o lab4
+	$(CC) main.cpp $(CFLAGS) -o lab4
 
 clean:
 	rm -f *.o

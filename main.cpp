@@ -18,8 +18,8 @@ void consumeB();
 
 int main()
 {
-	thread p1(produceA);
-	thread p2(produceB);
+	thread p1(produceB);
+	thread p2(produceA);
 	thread p3(consumeA);
 	thread p4(consumeB);
 

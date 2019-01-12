@@ -17,7 +17,7 @@ public:
 		}
 		leave();
 	}
-	
+
 	void ConsumerB(MyMonitor *ptr, int howMuch)
 	{
 		enter();
